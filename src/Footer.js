@@ -4,13 +4,13 @@ import './App.css';
 function Footer() {
   return (
     <div className="App">
+       <p> </p>
       <div className="App-header2">
-        
+       
       <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
-          rel="noopener noreferrer"
         >
           Privacy
         </a>
@@ -19,7 +19,6 @@ function Footer() {
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
-          rel="noopener noreferrer"
         >
           Terms
         </a>
@@ -29,13 +28,12 @@ function Footer() {
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
-          rel="noopener noreferrer"
         >
           Contact
         </a>
-
+<p></p>
         <div className="App-header2">
-(c) AskJoe 2023
+        © AskJoe 2023
 </div>
       </div></div>
   )
