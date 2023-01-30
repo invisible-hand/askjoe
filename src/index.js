@@ -10,7 +10,6 @@ root.render(
               
 
     <App />
-    document.title = "My Page Title";
     <Footer />
   </React.StrictMode>
 );
