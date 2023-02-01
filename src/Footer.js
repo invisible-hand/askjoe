@@ -9,15 +9,14 @@ function Footer() {
        
       <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
+          href="http://getaskjoe.com/privacy.html"
         >
           Privacy
         </a>
         &nbsp;  &nbsp; &nbsp;
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="http://getaskjoe.com/terms.html"
           target="_blank"
         >
           Terms
@@ -26,7 +25,7 @@ function Footer() {
 
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="mailto:noreply@askjoe.com"
           target="_blank"
         >
           Contact
