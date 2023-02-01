@@ -13,15 +13,29 @@
   color: black;
 }
 
-.App-header2 {
-  background-color: rgb(238, 238, 238);
-  font-size: calc(16px);
-  min-height: 12vh;
-  padding: 10px;
+.Footer {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  font-size: 16px;
   color: black;
 }
 
 .App-link {
   color: #000000;
   text-decoration: none;
+}
+
+.copyRightText {
+  color: black;
+  font-size: 16px;
+  text-align: center;
+}
+
+.vStack {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(238, 238, 238);
+  min-height: 12vh;
+  padding: 10px;
 }

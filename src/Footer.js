@@ -5,19 +5,19 @@ import MailLink from './MailLink';
 
 function Footer() {
   return (
-    <div className='App'>
-      <div className='App-header2'>
+    <div className='vStack'>
+      <div className='Footer'>
         <Link className='App-link' to='privacy'>
           Privacy
         </Link>
-        &nbsp; &nbsp; &nbsp;
         <Link className='App-link' to='terms'>
           Terms
         </Link>
-        &nbsp; &nbsp; &nbsp;
         <MailLink />
-        <div className='App-header2'>© AskJoe 2023</div>
       </div>
+      <p className='copyRightText'>
+        &copy; AskJoe {new Date().getFullYear().toString()}
+      </p>
     </div>
   );
 }
