@@ -1,7 +1,11 @@
 import React from 'react';
 
 const Terms = () => {
-  return <div>Terms</div>;
+  return (
+    <content className='App-header'>
+      <div>Terms</div>
+    </content>
+  );
 };
 
 export default Terms;
