@@ -1,41 +1,31 @@
-import React from 'react'
 import './App.css';
+
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <div className="App">
-       <p> </p>
-      <div className="App-header2">
-       
-      <a
-          className="App-link"
-          href="http://getaskjoe.com/privacy.html"
-        >
+    <div className='App'>
+      <div className='App-header2'>
+        <Link className='App-link' to='privacy'>
           Privacy
-        </a>
-        &nbsp;  &nbsp; &nbsp;
-        <a
-          className="App-link"
-          href="http://getaskjoe.com/terms.html"
-          target="_blank"
-        >
+        </Link>
+        &nbsp; &nbsp; &nbsp;
+        <Link className='App-link' to='terms'>
           Terms
-        </a>
-        &nbsp;  &nbsp; &nbsp;
-
+        </Link>
+        &nbsp; &nbsp; &nbsp;
         <a
-          className="App-link"
-          href="mailto:noreply@askjoe.com"
-          target="_blank"
+          className='App-link'
+          href='mailto:noreply@askjoe.com'
+          target='_blank'
+          rel='noreferrer'
         >
           Contact
         </a>
-<p></p>
-        <div className="App-header2">
-        © AskJoe 2023
-</div>
-      </div></div>
-  )
+        <div className='App-header2'>© AskJoe 2023</div>
+      </div>
+    </div>
+  );
 }
 
-export default Footer
+export default Footer;
