@@ -1,22 +1,18 @@
-import logo from './askjoe.png';
-import down from './ios.png';
-import name from './logo.png';
 import './App.css';
+
+import { Route, Routes } from 'react-router-dom';
+
+import Home from './pages/Home';
+import Privacy from './pages/Privacy';
+import Terms from './pages/Terms';
 
 function App() {
   return (
-    <div className="App">
-
-
-      <header className="App-header">
-      <img src={name} width="120" className="App-logo" alt="logo" />
-
-        <img src={logo} className="App-logo" alt="logo" />
-<p></p>
-        <img src={down} width="240" className="App-logo" alt="logo" />
-
-      </header>
-    </div>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/terms' element={<Terms />} />
+      <Route path='/privacy' element={<Privacy />} />
+    </Routes>
   );
 }
 
