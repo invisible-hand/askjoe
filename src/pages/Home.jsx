@@ -9,7 +9,12 @@ const Home = () => {
       <content className='App-header'>
         <img src={name} width='120' className='App-logo' alt='logo' />
         <img src={logo} className='App-logo' alt='logo' />
-        <img src={down} width='240' className='App-logo' alt='logo' />
+        <img
+          src={down}
+          width='240'
+          className='App-logo'
+          alt='Apple app store download link'
+        />
       </content>
     </div>
   );
