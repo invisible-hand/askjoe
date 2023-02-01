@@ -15,8 +15,8 @@
 
 .App-header2 {
   background-color: rgb(238, 238, 238);
-   font-size: calc(16px);
-   min-height: 12vh;
+  font-size: calc(16px);
+  min-height: 12vh;
   padding: 10px;
   color: black;
 }
@@ -25,4 +25,3 @@
   color: #000000;
   text-decoration: none;
 }
-
