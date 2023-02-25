@@ -17,6 +17,10 @@
   margin: 30px;
 }
 
+.App-logo {
+  margin: 10px;
+}
+
 .Footer {
   display: flex;
   gap: 25px;
