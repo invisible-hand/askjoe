@@ -1,0 +1,118 @@
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  width: 66.66%;
+  background-color: #f2f2f2;
+  padding: 16px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.messages-container {
+  margin-top: 16px;
+  overflow-y: scroll;
+}
+
+.message {
+  display: inline-block;
+  max-width: 80%;
+  padding: 8px 16px;
+  margin-bottom: 8px;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: white;
+}
+
+.message-user {
+  background-color: #0084ff;
+  color: white;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.message-assistant {
+  background-color: white;
+  color: black;
+  align-self: flex-start;
+}
+
+.send-button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #0084ff;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.send-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  margin-bottom: 8px;
+}
+
+.send-button:hover:not(:disabled) {
+  background-color: #0066cc;
+}
+
+.text-input {
+  padding: 8px 12px;
+  width: calc(100% - 112px);
+  margin-right: 8px;
+  margin-bottom: 8px;
+  resize: vertical;
+  /* max-height: 160px; */
+  border-radius: 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+  overflow-y: auto;
+  rows: 1;
+  min-height: 16px;
+}
+
+.text-input:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.system-message-container {
+  margin-bottom: 16px;
+}
+
+.system-message-container input {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.message-line {
+  display: flex;
+  flex-direction: row;
+}
+
+.role-name {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  font-size: 34px;
+  line-height: 48px;
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  text-align: center;
+}
